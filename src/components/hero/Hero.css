@@ -1,0 +1,68 @@
+.btn-primary {
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #fff;
+  background: #e59500;
+  padding: 0.7rem 1rem;
+  border: none;
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 3rem;
+  animation: moveBanner 1s 0.7s forwards;
+}
+
+.btn-primary::after {
+  content: "\f054";
+  font-size: 1rem;
+  font-family: fontawesome;
+  margin-left: 1rem;
+}
+
+.btn-primary:hover {
+  background: #fff;
+  color: #000;
+  border-radius: 3rem;
+  transition: all 0.3s ease-in;
+}
+
+.banner {
+  display: inline-block;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  margin-top: 4rem;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 576px) {
+  .banner {
+    padding: 2rem 3rem;
+  }
+
+  .banner h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .banner {
+    padding: 2rem 6rem;
+  }
+
+  .banner h1 {
+    font-size: 4rem;
+  }
+}

@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ececec;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.2;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Baloo Da 2", serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  /* margin-bottom: 0.5em; */
+  /* opacity: 0; */
+  animation: moveBanner 1s 0.5s forwards;
+  color: #e59500;
+}
+
+h2 {
+  font-family: "Muli", serif;
+  font-size: 2em;
+  margin-bottom: 0.75em;
+  animation: moveBanner 1s 0.6s forwards;
+}
+
+h3 {
+  font-family: "Muli", serif;
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+}
+
+h4 {
+  font-family: "Muli", serif;
+  font-family: "Josefin Slab", serif;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.overflow {
+  overflow: hidden;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.service-hover {
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+}
+
+.service-hover:hover {
+  transform: scale(1.1);
+}
+
+.contact-hero,
+.errorBanner,
+.photoHero,
+.defaultHero,
+.aboutHero {
+  min-height: 78vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)),
+    url(./images/13.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("https://images.unsplash.com/photo-1587560699334-bea93391dcef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  min-height: 40vh;
+}
+
+.aboutHero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("https://images.pexels.com/photos/2745258/pexels-photo-2745258.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  min-height: 40vh;
+}
+
+.photoHero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)),
+    url("https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  min-height: 55vh;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-title h4 {
+  font-size: 2rem;
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.section-title div {
+  width: 3.5rem;
+  height: 5px;
+  margin: 0 auto;
+  background: #e59500;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 0.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .photoHero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+      url("https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    min-height: 25vh;
+  }
+
+  .contact-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+      url("https://images.unsplash.com/photo-1587560699334-bea93391dcef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+    min-height: 25vh;
+  }
+
+  .defaultHero {
+    min-height: 35vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)),
+      url(./images/13.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service-hover {
+    transform: none;
+    transition: none;
+  }
+
+  .service-hover:hover {
+    transform: none;
+  }
+}

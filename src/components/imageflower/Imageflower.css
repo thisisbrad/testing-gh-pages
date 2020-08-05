@@ -1,0 +1,42 @@
+.image-details {
+    padding-top: 6rem;
+    display: flex;
+
+}
+
+.active-image {
+
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.active-image-view {
+    width: 80%;
+    height: 65%;
+}
+
+.imagetitle {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.btn-photos {
+    padding: .7rem 2rem;
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #e59500;
+    border: none;
+    border-radius: 5rem;
+    margin-bottom: 10rem;
+}
+
+.photo-link {
+    color: #ff0000;
+}
+
+.photo-link:hover {
+    color: #e59500;
+}

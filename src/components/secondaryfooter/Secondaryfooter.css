@@ -1,0 +1,19 @@
+.secondary-footer,
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-footer {
+  width: 100%;
+  background-color: #444;
+  padding: 0.6rem;
+}
+
+.secondary-footer-content {
+  font-size: 0.7rem;
+  font-style: italic;
+  margin-left: 2rem;
+  color: #fff;
+}
