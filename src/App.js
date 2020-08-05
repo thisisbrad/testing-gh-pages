@@ -14,7 +14,7 @@ import Imageflower from './components/imageflower/Imageflower';
 
 function App() {
   return (
-    <Router basename="/">
+    <Router>
       <div className="App">
         <Navbar />
         <Switch>
