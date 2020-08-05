@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/navbar/Navbar';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Redirect,
@@ -14,7 +14,7 @@ import Imageflower from './components/imageflower/Imageflower';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="App">
         <Navbar />
         <Switch>
