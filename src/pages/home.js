@@ -8,10 +8,7 @@ export default function Home() {
   return (
     <>
       <Hero>
-        <Banner
-          title="Test Title should show up"
-          subtitle="High Quality Images"
-        >
+        <Banner title="Now this needs to work" subtitle="High Quality Images">
           <Link to="/photos" className="btn-primary">
             Search Photos
           </Link>
