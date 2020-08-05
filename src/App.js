@@ -1,16 +1,16 @@
-import React from "react";
-import "./App.css";
-import Navbar from "./components/navbar/Navbar";
+import React from 'react';
+import './App.css';
+import Navbar from './components/navbar/Navbar';
 import {
   HashRouter as Router,
   Switch,
   Route,
   Redirect,
-} from "react-router-dom";
-import PageRenderer from "./Pagerenderer";
-import Footer from "./components/footer/Footer";
-import Secondaryfooter from "./components/secondaryfooter/Secondaryfooter";
-import Imageflower from "./components/imageflower/Imageflower";
+} from 'react-router-dom';
+import PageRenderer from './Pagerenderer';
+import Footer from './components/footer/Footer';
+import Secondaryfooter from './components/secondaryfooter/Secondaryfooter';
+import Imageflower from './components/imageflower/Imageflower';
 
 function App() {
   return (
