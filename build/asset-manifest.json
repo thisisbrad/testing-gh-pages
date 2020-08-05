@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/github.io/portfolio-V/static/css/main.3518268e.chunk.css",
-    "main.js": "/github.io/portfolio-V/static/js/main.7b343726.chunk.js",
-    "main.js.map": "/github.io/portfolio-V/static/js/main.7b343726.chunk.js.map",
-    "runtime-main.js": "/github.io/portfolio-V/static/js/runtime-main.d63e8ad0.js",
-    "runtime-main.js.map": "/github.io/portfolio-V/static/js/runtime-main.d63e8ad0.js.map",
-    "static/js/2.25ded2f6.chunk.js": "/github.io/portfolio-V/static/js/2.25ded2f6.chunk.js",
-    "static/js/2.25ded2f6.chunk.js.map": "/github.io/portfolio-V/static/js/2.25ded2f6.chunk.js.map",
-    "index.html": "/github.io/portfolio-V/index.html",
-    "precache-manifest.7a31167ddce8dda0b8cfc495729d8397.js": "/github.io/portfolio-V/precache-manifest.7a31167ddce8dda0b8cfc495729d8397.js",
-    "service-worker.js": "/github.io/portfolio-V/service-worker.js",
-    "static/css/main.3518268e.chunk.css.map": "/github.io/portfolio-V/static/css/main.3518268e.chunk.css.map",
-    "static/js/2.25ded2f6.chunk.js.LICENSE.txt": "/github.io/portfolio-V/static/js/2.25ded2f6.chunk.js.LICENSE.txt",
-    "static/media/Fetchphotos.css": "/github.io/portfolio-V/static/media/13.2dba8ab7.jpg",
-    "static/media/john.jpeg": "/github.io/portfolio-V/static/media/john.9b247305.jpeg"
+    "main.css": "/testing-gh-pages/static/css/main.0791ef8c.chunk.css",
+    "main.js": "/testing-gh-pages/static/js/main.7b343726.chunk.js",
+    "main.js.map": "/testing-gh-pages/static/js/main.7b343726.chunk.js.map",
+    "runtime-main.js": "/testing-gh-pages/static/js/runtime-main.60603c72.js",
+    "runtime-main.js.map": "/testing-gh-pages/static/js/runtime-main.60603c72.js.map",
+    "static/js/2.25ded2f6.chunk.js": "/testing-gh-pages/static/js/2.25ded2f6.chunk.js",
+    "static/js/2.25ded2f6.chunk.js.map": "/testing-gh-pages/static/js/2.25ded2f6.chunk.js.map",
+    "index.html": "/testing-gh-pages/index.html",
+    "precache-manifest.ba3a50213dcee89926420a43c5d7e8cb.js": "/testing-gh-pages/precache-manifest.ba3a50213dcee89926420a43c5d7e8cb.js",
+    "service-worker.js": "/testing-gh-pages/service-worker.js",
+    "static/css/main.0791ef8c.chunk.css.map": "/testing-gh-pages/static/css/main.0791ef8c.chunk.css.map",
+    "static/js/2.25ded2f6.chunk.js.LICENSE.txt": "/testing-gh-pages/static/js/2.25ded2f6.chunk.js.LICENSE.txt",
+    "static/media/Fetchphotos.css": "/testing-gh-pages/static/media/13.2dba8ab7.jpg",
+    "static/media/john.jpeg": "/testing-gh-pages/static/media/john.9b247305.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d63e8ad0.js",
+    "static/js/runtime-main.60603c72.js",
     "static/js/2.25ded2f6.chunk.js",
-    "static/css/main.3518268e.chunk.css",
+    "static/css/main.0791ef8c.chunk.css",
     "static/js/main.7b343726.chunk.js"
   ]
 }
